@@ -1,4 +1,4 @@
-#define _STACK_HPP_
+#ifndef _STACK_HPP_
 #define _STACK_HPP_
 
 #include <list>
@@ -14,3 +14,5 @@ public:
   void push(const T& newValue);
   bool isEmpty() const;
 };
+
+#endif
